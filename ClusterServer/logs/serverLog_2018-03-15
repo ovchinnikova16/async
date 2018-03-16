@@ -1,0 +1,38 @@
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+15.03.2018 23:22:41.620 INFO     1 Server is starting listening prefixes: http://+:20000/500/  
+15.03.2018 23:22:41.620 INFO     1 Press ENTER to stop listening  
+15.03.2018 23:22:43.413 INFO     1 Server stopped!  
+[End of logging]
+
+[Start of logging]
+15.03.2018 23:24:02.501 INFO     1 Server is starting listening prefixes: http://+:20000/500/  
+15.03.2018 23:24:02.501 INFO     1 Press ENTER to stop listening  
+15.03.2018 23:24:04.269 INFO     5 Thread #5 received request #1 at 23:24:04.2534173  
+15.03.2018 23:24:04.284 INFO     6 Thread #6 received request #2 at 23:24:04.2846697  
+15.03.2018 23:24:04.284 INFO     5 Thread #5 received request #3 at 23:24:04.2846697  
+15.03.2018 23:24:04.300 INFO     8 Thread #8 received request #4 at 23:24:04.3002954  
+15.03.2018 23:24:04.300 INFO     5 Thread #5 received request #5 at 23:24:04.3002954  
+15.03.2018 23:24:04.300 INFO     8 Thread #8 received request #6 at 23:24:04.3002954  
+15.03.2018 23:24:04.300 INFO     8 Thread #8 received request #7 at 23:24:04.3002954  
+15.03.2018 23:24:04.300 INFO     8 Thread #8 received request #8 at 23:24:04.3002954  
+15.03.2018 23:24:04.315 INFO     5 Thread #5 received request #9 at 23:24:04.3159230  
+15.03.2018 23:24:04.315 INFO     6 Thread #6 received request #10 at 23:24:04.3159230  
+15.03.2018 23:24:04.315 INFO     6 Thread #6 received request #11 at 23:24:04.3159230  
+15.03.2018 23:24:04.337 INFO     5 Thread #5 received request #12 at 23:24:04.3376247  
+15.03.2018 23:24:04.337 INFO     6 Thread #6 received request #13 at 23:24:04.3376247  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #7 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     8 Thread #8 sent response #8 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     9 Thread #9 sent response #6 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #5 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #4 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #3 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #2 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #10 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     6 Thread #6 sent response #9 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     8 Thread #8 sent response #11 at 23:24:04.8159481  
+15.03.2018 23:24:04.815 INFO     5 Thread #5 sent response #1 at 23:24:04.8159481  
+15.03.2018 23:24:04.853 INFO     8 Thread #8 sent response #13 at 23:24:04.8537831  
+15.03.2018 23:24:04.853 INFO     6 Thread #6 sent response #12 at 23:24:04.8537831  

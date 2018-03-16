@@ -1,0 +1,83 @@
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:03:38.696 INFO     1 Server is starting listening prefixes: http://+:20000/500/  
+24.02.2018 11:03:38.722 INFO     1 Press ENTER to stop listening  
+24.02.2018 11:10:03.650 INFO     1 Server stopped!  
+[Start of logging]
+24.02.2018 11:10:09.829 INFO     1 Server is starting listening prefixes: http://+:20000/500/  
+24.02.2018 11:10:09.856 INFO     1 Press ENTER to stop listening  
+24.02.2018 11:18:14.863 INFO     6 Thread #6 received request #1 at 11:18:14.8628169  
+24.02.2018 11:18:14.863 INFO     5 Thread #5 received request #2 at 11:18:14.8633177  
+24.02.2018 11:18:14.863 INFO     8 Thread #8 received request #3 at 11:18:14.8633177  
+24.02.2018 11:18:14.863 INFO     7 Thread #7 received request #4 at 11:18:14.8638195  
+24.02.2018 11:18:14.875 INFO     6 Thread #6 received request #5 at 11:18:14.8753520  
+24.02.2018 11:18:14.875 INFO     6 Thread #6 received request #6 at 11:18:14.8753520  
+24.02.2018 11:18:14.875 INFO     6 Thread #6 received request #7 at 11:18:14.8753520  
+24.02.2018 11:18:14.875 INFO     6 Thread #6 received request #8 at 11:18:14.8753520  
+24.02.2018 11:18:14.875 INFO     6 Thread #6 received request #9 at 11:18:14.8753520  
+24.02.2018 11:18:14.875 INFO     8 Thread #8 received request #10 at 11:18:14.8753520  
+24.02.2018 11:18:14.888 INFO     8 Thread #8 received request #11 at 11:18:14.8884209  
+24.02.2018 11:18:14.895 INFO     7 Thread #7 received request #12 at 11:18:14.8954951  
+24.02.2018 11:18:14.909 INFO     6 Thread #6 received request #13 at 11:18:14.9097320  
+24.02.2018 11:18:15.426 INFO     5 Thread #5 sent response #1 at 11:18:15.4265586  
+24.02.2018 11:18:15.426 INFO     8 Thread #8 sent response #9 at 11:18:15.4265586  
+24.02.2018 11:18:15.426 INFO     7 Thread #7 sent response #10 at 11:18:15.4265586  
+24.02.2018 11:18:15.426 INFO     6 Thread #6 sent response #8 at 11:18:15.4265586  
+24.02.2018 11:18:15.434 INFO     8 Thread #8 sent response #7 at 11:18:15.4345813  
+24.02.2018 11:18:15.434 INFO     7 Thread #7 sent response #13 at 11:18:15.4335786  
+24.02.2018 11:18:15.434 INFO     8 Thread #8 sent response #6 at 11:18:15.4345813  
+24.02.2018 11:18:15.434 INFO     7 Thread #7 sent response #5 at 11:18:15.4345813  
+24.02.2018 11:18:15.435 INFO     8 Thread #8 sent response #2 at 11:18:15.4355840  
+24.02.2018 11:18:15.435 INFO     7 Thread #7 sent response #4 at 11:18:15.4355840  
+24.02.2018 11:18:15.435 INFO     5 Thread #5 sent response #3 at 11:18:15.4355840  
+24.02.2018 11:18:15.436 INFO     8 Thread #8 sent response #12 at 11:18:15.4365871  
+24.02.2018 11:18:15.436 INFO     7 Thread #7 sent response #11 at 11:18:15.4365871  
+24.02.2018 11:20:42.222 INFO     7 Thread #7 received request #14 at 11:20:42.2229631  
+24.02.2018 11:20:42.223 INFO     6 Thread #6 received request #15 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     7 Thread #7 received request #16 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     7 Thread #7 received request #18 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     7 Thread #7 received request #19 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     7 Thread #7 received request #20 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     7 Thread #7 received request #21 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     6 Thread #6 received request #17 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     6 Thread #6 received request #23 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     6 Thread #6 received request #24 at 11:20:42.2234657  
+24.02.2018 11:20:42.223 INFO     7 Thread #7 received request #22 at 11:20:42.2234657  
+24.02.2018 11:20:42.492 INFO     6 Thread #6 received request #25 at 11:20:42.4924955  
+24.02.2018 11:20:42.724 INFO     4 Thread #4 sent response #24 at 11:20:42.7241244  
+24.02.2018 11:20:42.724 INFO     5 Thread #5 sent response #22 at 11:20:42.7241244  
+24.02.2018 11:20:42.724 INFO     4 Thread #4 sent response #23 at 11:20:42.7241244  
+24.02.2018 11:20:42.724 INFO     5 Thread #5 sent response #17 at 11:20:42.7241244  
+24.02.2018 11:20:42.724 INFO     4 Thread #4 sent response #21 at 11:20:42.7241244  
+24.02.2018 11:20:42.725 INFO     5 Thread #5 sent response #20 at 11:20:42.7241244  
+24.02.2018 11:20:42.725 INFO     4 Thread #4 sent response #19 at 11:20:42.7251275  
+24.02.2018 11:20:42.725 INFO     5 Thread #5 sent response #18 at 11:20:42.7251275  
+24.02.2018 11:20:42.725 INFO     5 Thread #5 sent response #15 at 11:20:42.7251275  
+24.02.2018 11:20:42.725 INFO     4 Thread #4 sent response #16 at 11:20:42.7251275  
+24.02.2018 11:20:42.725 INFO    10 Thread #10 sent response #14 at 11:20:42.7251275  
+24.02.2018 11:20:42.994 INFO     5 Thread #5 sent response #25 at 11:20:42.9948613  
+24.02.2018 11:20:43.197 INFO    10 Thread #10 received request #26 at 11:20:43.1972244  
+24.02.2018 11:20:43.698 INFO     6 Thread #6 sent response #26 at 11:20:43.6981080  
