@@ -1,0 +1,357 @@
+[Start of logging]
+15.03.2018 23:23:56.417 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=От  
+15.03.2018 23:23:56.433 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=топота  
+15.03.2018 23:23:56.433 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=копыт  
+15.03.2018 23:23:56.433 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=пыль  
+15.03.2018 23:23:56.433 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=по  
+15.03.2018 23:23:56.433 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=полю  
+15.03.2018 23:23:56.433 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=летит  
+15.03.2018 23:23:56.464 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=На  
+15.03.2018 23:23:56.464 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дворе  
+15.03.2018 23:23:56.464 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=трава  
+15.03.2018 23:23:56.464 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=на  
+15.03.2018 23:23:56.464 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=траве  
+15.03.2018 23:23:56.464 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дрова  
+15.03.2018 23:23:57.642 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #1) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #2) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #3) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #4) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #5) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #6) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #7) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #8) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #9) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #10) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #11) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #12) System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:20000
+   в System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__8.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ClusterClient.SmartClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\SmartClusterClient.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40<---
+  
+[End of logging]
+
+[Start of logging]
+15.03.2018 23:24:04.237 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=От  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=топота  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=копыт  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=пыль  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=по  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=полю  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=летит  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=На  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дворе  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=трава  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=на  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=траве  
+15.03.2018 23:24:04.253 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дрова  
+15.03.2018 23:24:05.384 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=На received in 1129 ms  
+15.03.2018 23:24:05.384 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=дрова received in 1128 ms  
+15.03.2018 23:24:05.384 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=на received in 1128 ms  
+15.03.2018 23:24:05.384 INFO     8 Response from http://127.0.0.1:20000/500/aaa/?query=От received in 1136 ms  
+15.03.2018 23:24:05.384 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=трава received in 1129 ms  
+15.03.2018 23:24:05.384 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=копыт received in 1130 ms  
+15.03.2018 23:24:05.384 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=траве received in 1130 ms  
+15.03.2018 23:24:05.384 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=пыль received in 1133 ms  
+15.03.2018 23:24:05.384 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=летит received in 1133 ms  
+15.03.2018 23:24:05.384 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=по received in 1133 ms  
+15.03.2018 23:24:05.399 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=полю received in 1140 ms  
+15.03.2018 23:24:05.399 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=топота received in 1141 ms  
+15.03.2018 23:24:05.399 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=дворе received in 1147 ms  
+[End of logging]
+

@@ -1,0 +1,1312 @@
+[Start of logging]
+24.02.2018 11:09:37.186 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #1) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #2) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #3) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #4) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #5) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #6) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #7) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #8) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #9) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #10) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #11) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #12) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:09:45.067 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #1) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #2) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #3) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #4) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #5) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #6) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #7) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #8) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #9) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #10) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #11) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #12) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:10:14.481 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #1) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #2) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #3) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #4) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #5) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #6) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #7) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #8) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #9) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #10) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #11) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #12) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:14:36.361 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #1) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #2) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #3) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #4) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #5) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #6) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #7) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #8) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #9) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #10) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #11) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+
+---> (Внутреннее исключение #12) System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Clients\RandomClusterClient.cs:строка 18
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\ClusterClient\Program.cs:строка 40<---
+  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:15:55.983 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=От  
+24.02.2018 11:15:56.044 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=топота  
+24.02.2018 11:15:56.044 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=копыт  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=пыль  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=по  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=полю  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=летит  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=На  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=дворе  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=трава  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=на  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=траве  
+24.02.2018 11:15:56.045 INFO     1 Processing http://127.0.0.1:20000/aaa/?query=дрова  
+24.02.2018 11:15:56.487 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #1) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #2) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #3) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #4) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #5) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #6) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #7) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #8) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #9) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #10) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #11) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #12) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:17:57.612 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=От  
+24.02.2018 11:17:57.672 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=топота  
+24.02.2018 11:17:57.672 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=копыт  
+24.02.2018 11:17:57.672 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=пыль  
+24.02.2018 11:17:57.672 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=по  
+24.02.2018 11:17:57.672 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=полю  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=летит  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=На  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=дворе  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=трава  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=на  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=траве  
+24.02.2018 11:17:57.673 INFO     1 Processing http://127.0.0.1:20000/aaa/500/?query=дрова  
+24.02.2018 11:17:57.969 FATAL    1 System.AggregateException: Произошла одна или несколько ошибок. ---> System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   в System.Threading.Tasks.Task.WaitAll(Task[] tasks)
+   в ClusterClient.Program.Main(String[] args) в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 34
+---> (Внутреннее исключение #0) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #1) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #2) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #3) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #4) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #5) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #6) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #7) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #8) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #9) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #10) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #11) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+
+---> (Внутреннее исключение #12) System.AggregateException: Произошла одна или несколько ошибок. ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в System.Threading.Tasks.Task`1.get_Result()
+   в ClusterClient.Clients.RandomClusterClient.<ProcessRequestAsync>d__2.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\RandomClusterClient.cs:строка 28
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Program.<>c__DisplayClass0_0.<<Main>b__0>d.MoveNext() в C:\Users\Асус\pp\ClusterClient\Program.cs:строка 40
+---> (Внутреннее исключение #0) System.Net.WebException: Удаленный сервер возвратил ошибку: (404) Не найден.
+   в System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ClusterClient.Clients.ClusterClientBase.<ProcessRequestAsync>d__9.MoveNext() в C:\Users\Асус\pp\ClusterClient\Clients\ClusterClientBase.cs:строка 36<---
+<---
+  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:18:14.643 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=От  
+24.02.2018 11:18:14.702 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=топота  
+24.02.2018 11:18:14.702 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=копыт  
+24.02.2018 11:18:14.702 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=пыль  
+24.02.2018 11:18:14.702 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=по  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=полю  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=летит  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=На  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дворе  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=трава  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=на  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=траве  
+24.02.2018 11:18:14.703 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дрова  
+24.02.2018 11:18:15.991 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=по received in 1288 ms  
+24.02.2018 11:18:15.991 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=На received in 1287 ms  
+24.02.2018 11:18:15.991 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=дрова received in 1287 ms  
+24.02.2018 11:18:15.991 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=на received in 1287 ms  
+24.02.2018 11:18:15.995 INFO    13 Response from http://127.0.0.1:20000/500/aaa/?query=копыт received in 1293 ms  
+24.02.2018 11:18:15.999 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=полю received in 1296 ms  
+24.02.2018 11:18:15.999 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=пыль received in 1297 ms  
+24.02.2018 11:18:16.001 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=траве received in 1298 ms  
+24.02.2018 11:18:16.001 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=летит received in 1298 ms  
+24.02.2018 11:18:16.003 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=От received in 1336 ms  
+24.02.2018 11:18:16.003 INFO    13 Response from http://127.0.0.1:20000/500/aaa/?query=топота received in 1300 ms  
+24.02.2018 11:18:16.004 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=дворе received in 1301 ms  
+24.02.2018 11:18:16.006 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=трава received in 1302 ms  
+[End of logging]
+
+[Start of logging]
+24.02.2018 11:20:42.013 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=От  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=топота  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=копыт  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=пыль  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=по  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=полю  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=летит  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=На  
+24.02.2018 11:20:42.089 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дворе  
+24.02.2018 11:20:42.090 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=трава  
+24.02.2018 11:20:42.090 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=на  
+24.02.2018 11:20:42.090 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=траве  
+24.02.2018 11:20:42.090 INFO     1 Processing http://127.0.0.1:20000/500/aaa/?query=дрова  
+24.02.2018 11:20:43.300 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=траве received in 1209 ms  
+24.02.2018 11:20:43.300 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=на received in 1210 ms  
+24.02.2018 11:20:43.301 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=дрова received in 1210 ms  
+24.02.2018 11:20:43.307 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=дворе received in 1217 ms  
+24.02.2018 11:20:43.309 INFO    13 Response from http://127.0.0.1:20000/500/aaa/?query=На received in 1219 ms  
+24.02.2018 11:20:43.322 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=летит received in 1232 ms  
+24.02.2018 11:20:43.322 INFO    11 Response from http://127.0.0.1:20000/500/aaa/?query=по received in 1233 ms  
+24.02.2018 11:20:43.326 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=От received in 1288 ms  
+24.02.2018 11:20:43.334 INFO    12 Response from http://127.0.0.1:20000/500/aaa/?query=копыт received in 1244 ms  
+24.02.2018 11:20:43.342 INFO     9 Response from http://127.0.0.1:20000/500/aaa/?query=полю received in 1252 ms  
+24.02.2018 11:20:43.350 INFO    13 Response from http://127.0.0.1:20000/500/aaa/?query=трава received in 1260 ms  
+24.02.2018 11:20:43.497 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=топота received in 1407 ms  
+24.02.2018 11:20:44.200 INFO    10 Response from http://127.0.0.1:20000/500/aaa/?query=пыль received in 2110 ms  
+[End of logging]
+
