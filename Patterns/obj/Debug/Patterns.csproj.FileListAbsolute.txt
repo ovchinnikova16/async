@@ -1,0 +1,9 @@
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\bin\Debug\Patterns.exe.config
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\bin\Debug\Files\ips.zip
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\bin\Debug\Patterns.exe
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\bin\Debug\Patterns.pdb
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\bin\Debug\nunit.framework.dll
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\bin\Debug\nunit.framework.xml
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\obj\Debug\Patterns.csprojResolveAssemblyReference.cache
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\obj\Debug\Patterns.exe
+C:\Users\Асус\Downloads\parallelprogramming-shpora2018-1e6c90f346d9\parallelprogramming-shpora2018-1e6c90f346d9\Patterns\obj\Debug\Patterns.pdb
